@@ -26,7 +26,7 @@ This Sprint Challenge is split into three parts:
 
 ### Minimum Viable Product
 
-#### Task 1. Implement a Ring Buffer Data Structure
+#### Task 1. Implement a Ring Buffer Data Structure [x]
 
 A ring buffer is a non-growable buffer with a fixed size. When the ring buffer is full and a new element is inserted, the oldest element in the ring buffer is overwritten with the newest element. This kind of data structure is very useful for use cases such as storing logs and history information, where you typically want to store information up until it reaches a certain age, after which you don't care about it anymore and don't mind seeing it overwritten by newer data.
 
@@ -60,7 +60,7 @@ buffer.append('f')
 buffer.get()   # should return ['d', 'e', 'f']
 ```
 
-#### Task 2. Runtime Optimization
+#### Task 2. Runtime Optimization [x]
 
 ***!Important!*** If you are running this using PowerShell by clicking on the green play button, you will get an error that `names1.txt` is not found.  To resolve this, run it, get the error, then `cd` into the `names` directory in the `python` terminal that opens in VSCode.
 
