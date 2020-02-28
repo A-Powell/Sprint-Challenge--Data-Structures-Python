@@ -45,7 +45,7 @@ print(f"runtime: {end_time - start_time} seconds")
 
 # runtime: 13.547685384750366 seconds <--------- Initial - O(n^2)
 
-# runtime: 0.18688392639160156 seconds  - O(logn)
+# runtime: 0.18688392639160156 seconds  - O(n logn)
 
 # ---------- Stretch Goal -----------
 # Python has built-in tools that allow for a very efficient approach to this problem
